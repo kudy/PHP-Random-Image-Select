@@ -6,5 +6,5 @@ include "image_array.php";
 $randomImageNumber = array_rand($imageArray, 1);
 
 //Print to the screen an HTML image element with attributes pulled from the randomly selected array entry
-echo "<img src='" . $imageArray[$randomImageNumber]['address'] . "' alt='" . imageArray[$randomImageNumber]['alt_text'] . "' />\n";
+echo "<img src='" . $imageArray[$randomImageNumber]['address'] . "' alt='" . $imageArray[$randomImageNumber]['alt_text'] . "' />\n";
 ?>
